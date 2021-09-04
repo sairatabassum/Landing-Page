@@ -1,0 +1,16 @@
+@media only screen and (max-width: 577px) {
+  .col .span_1_of_2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-section {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .span_1_of_2:last-child {
+    /* border: 1px solid black; */
+    text-align: left;
+  }
+}
