@@ -358,7 +358,9 @@ cite img {
 /* Contact */
 .contact {
   text-align: center;
-  margin-bottom: 90px;
+  padding-bottom: 90px;
+  padding-top: 90px;
+  background-color: #f4f4f4;
 }
 .contact-form {
   width: 60%;
