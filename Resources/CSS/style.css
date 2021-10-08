@@ -261,84 +261,8 @@ cite img {
   margin-right: 10px;
 }
 
-/* Footer */
-footer {
-  background-color: #111;
-  color: #fff;
-  height: auto;
-  width: 100%;
-  padding-top: 50px;
-}
-.footer-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 40px;
-}
+/* Card */
 
-.footer-content h3 {
-  font-size: 1.5rem;
-  font-weight: 300;
-  line-height: 3rem;
-  letter-spacing: 1px;
-}
-.footer-content p {
-  max-width: 400px;
-  margin: 8px auto;
-  line-height: 28px;
-  font-size: 14px;
-}
-.social {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem;
-}
-
-.social li {
-  margin: 0 12px;
-}
-.social a {
-  color: #fff;
-}
-.social i {
-  font-size: 18px;
-}
-.footer-bottom {
-  background-color: #000;
-  width: 100%;
-  padding: 20px 0;
-  text-align: center;
-}
-
-.footer-bottom p {
-  font-size: 14px;
-  word-spacing: 2px;
-}
-.footer-bottom span {
-  opacity: 0.4;
-  font-weight: 500;
-}
-
-.fa-facebook-f:hover {
-  color: #3b5998;
-}
-
-.fa-twitter:hover {
-  color: #00aced;
-}
-
-.fa-youtube:hover,
-.fa-google:hover {
-  color: #dd4b39;
-}
-
-.fa-instagram:hover {
-  color: #517fa4;
-}
 .plans {
   margin: 100px 0;
 }
@@ -430,4 +354,100 @@ footer {
 
 .button:focus {
   outline: none;
+}
+/* Contact */
+.contact {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  color: #555;
+}
+input {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Footer */
+footer {
+  background-color: #111;
+  color: #fff;
+  height: auto;
+  width: 100%;
+  padding-top: 50px;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-content h3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 3rem;
+  letter-spacing: 1px;
+}
+.footer-content p {
+  max-width: 400px;
+  margin: 8px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.social li {
+  margin: 0 12px;
+}
+.social a {
+  color: #fff;
+}
+.social i {
+  font-size: 18px;
+}
+.footer-bottom {
+  background-color: #000;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+}
+.footer-bottom span {
+  opacity: 0.4;
+  font-weight: 500;
+}
+
+.fa-facebook-f:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #00aced;
+}
+
+.fa-youtube:hover,
+.fa-google:hover {
+  color: #dd4b39;
+}
+
+.fa-instagram:hover {
+  color: #517fa4;
 }
