@@ -1,1 +1,40 @@
+/* Big tablets to smaller laptop screen */
+@media only screen and (max-width: 1200px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+  .work-section,
+  .ww-section,
+  .service-section {
+    padding-top: 100px;
+  }
 
+  .contact {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  footer {
+    padding-top: 30px;
+  }
+}
+/* Smaller tablet to larger tablet screen */
+@media only screen and (max-width: 1023px) {
+  .about-section {
+    margin-bottom: 80px;
+  }
+}
+@media only screen and (max-width: 963px) {
+  .about-heading {
+    font-size: 190%;
+    /* text-align: start; */
+  }
+}
+
+/* Larger phone to smaller tablet screen */
+@media only screen and (max-width: 767px) {
+}
+
+/* Smaller to larger mobile phones */
+@media only screen and (max-width: 479px) {
+}
