@@ -338,3 +338,95 @@ footer {
 .fa-instagram:hover {
   color: #517fa4;
 }
+.plans {
+  margin: 100px 0;
+}
+.section-s-heading {
+  text-align: center;
+  font-size: 200%;
+}
+
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.plan {
+  background: #d5d7f1;
+  text-align: center;
+  padding: 20px;
+  margin: 8px;
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  font-size: 100%;
+  border-radius: 10px;
+}
+
+.plan--highlighted {
+  background: #6f63d6;
+  color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan__annotation {
+  background: white;
+  color: #5d52c7;
+  padding: 8px;
+  box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+
+.plan__title {
+  color: #5d52c7;
+  padding: 10px;
+  font-size: large;
+}
+.plan h3 {
+  font-size: 100%;
+  color: #000000c2;
+}
+.plan__price {
+  color: #858585;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.plan--highlighted .plan__title {
+  color: white;
+}
+
+.plan--highlighted .plan__price {
+  color: #f8e80a;
+}
+.plan__features {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.plan__feature {
+  margin: 8px 0;
+  padding: 2px;
+}
+.button {
+  background: #5d52c7;
+  color: white;
+  font: inherit;
+  border: 1.5px solid #0a062b;
+  padding: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+  background: white;
+  color: #5d52c7;
+}
+
+.button:focus {
+  outline: none;
+}
