@@ -23,11 +23,26 @@
   .about-section {
     margin-bottom: 80px;
   }
+  .about-box img {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 963px) {
   .about-heading {
-    font-size: 190%;
-    /* text-align: start; */
+    font-size: 180%;
+    text-align: start;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .about-heading {
+    font-size: 150%;
+    text-align: start;
+  }
+  .section-heading {
+    font-size: 200%;
+  }
+  .section-s-heading {
+    font-size: 150%;
   }
 }
 
