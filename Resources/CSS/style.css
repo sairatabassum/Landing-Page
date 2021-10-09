@@ -85,7 +85,21 @@ header h2 {
 .main-nav li a:hover {
   border-bottom: 3px solid #b8a70d;
 }
-
+.sticky-nav {
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  box-shadow: 0 2px 2px #efefef;
+  height: 60px;
+}
+.sticky-nav .main-nav {
+  margin-top: 20px;
+}
+.sticky-nav .main-nav li a {
+  color: #555;
+}
 .laptop {
   width: 80%;
   border-radius: 2em;
