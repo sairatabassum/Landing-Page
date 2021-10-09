@@ -1,5 +1,9 @@
 $(document).ready(function () {
   $(".about-section").waypoint(function (direction) {
-    $("nav").addClass("sticky-nav");
+    if (direction == "down") {
+      $("nav").addClass("sticky-nav");
+    } else {
+      $("nav").removeClass("sticky-nav");
+    }
   });
 });
