@@ -160,7 +160,7 @@ header h2 {
   width: 100%;
   opacity: 0.7;
   height: auto;
-  transform: scale(1.13);
+  transform: scale(1.14);
   transition: transform 0.5s, opacity 0.5s;
 }
 .work-para {

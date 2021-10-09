@@ -4,6 +4,7 @@
   body {
     font-size: 14px;
   }
+
   .work-section,
   .ww-section,
   .service-section {
@@ -17,9 +18,16 @@
   footer {
     padding-top: 30px;
   }
+  .work img {
+    transform: scale(1.15);
+  }
 }
 /* Smaller tablet to larger tablet screen */
 @media only screen and (max-width: 1023px) {
+  html,
+  body {
+    font-size: 12px;
+  }
   .about-section {
     margin-bottom: 80px;
   }
@@ -31,6 +39,9 @@
   .about-heading {
     font-size: 180%;
     text-align: start;
+  }
+  .work img {
+    transform: scale(1.2);
   }
 }
 @media only screen and (max-width: 780px) {
@@ -44,6 +55,12 @@
   .section-s-heading {
     font-size: 150%;
   }
+  .work img {
+    transform: scale(1.21);
+  }
+  .about-box {
+    padding-left: 15px;
+  }
 }
 
 /* Larger phone to smaller tablet screen */
@@ -52,4 +69,48 @@
 
 /* Smaller to larger mobile phones */
 @media only screen and (max-width: 479px) {
+  html,
+  body {
+    font-size: 10px;
+  }
+  .about-box {
+    padding-left: 0px;
+    margin-top: 50px;
+    font-size: 12px;
+  }
+  .about-box img {
+    width: 80%;
+  }
+  .work-section,
+  .ww-section,
+  .service-section {
+    padding-top: 60px;
+  }
+  .ww-section .section-s-heading {
+    margin-bottom: 0;
+  }
+  .logo {
+    width: 30%;
+  }
+  .testimonial-heading {
+    margin-top: 80px;
+  }
+  .testimonial-box {
+    padding: 4%;
+  }
+  blockquote {
+    font-size: 12px;
+  }
+  cite {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  cite img {
+    padding: 0;
+  }
+  .plan {
+    width: 60%;
+    font-size: 14px;
+  }
 }
