@@ -15,6 +15,12 @@ body {
 }
 
 header {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(Image/header.jpg);
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
     url(Image/header.jpg);
   height: 100vh;
@@ -26,6 +32,7 @@ header {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -71,6 +78,7 @@ header h2 {
   text-decoration: none;
   color: white;
   font-weight: 400;
+  -webkit-transition: border-bottom 0.2s;
   transition: border-bottom 0.2s;
 }
 
@@ -160,13 +168,18 @@ header h2 {
   width: 100%;
   opacity: 0.7;
   height: auto;
+  -webkit-transform: scale(1.14);
   transform: scale(1.14);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
   transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 .work-para {
   color: white;
 }
 .work img:hover {
+  -webkit-transform: scale(1);
   transform: scale(1);
   opacity: 1;
 }
@@ -208,6 +221,11 @@ header h2 {
   padding: 3% 12%;
 }
 .testimonial {
+  background-image: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url(Image/testimonial.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url(Image/testimonial.jpg);
   background-size: cover;
@@ -402,9 +420,18 @@ footer {
   padding-top: 50px;
 }
 .footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   text-align: center;
   margin-bottom: 40px;
@@ -424,8 +451,14 @@ footer {
 }
 .social {
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin: 1rem;
 }
