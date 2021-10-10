@@ -22,6 +22,7 @@
     transform: scale(1.15);
   }
 }
+
 /* Smaller tablet to larger tablet screen */
 @media only screen and (max-width: 1023px) {
   html,
@@ -35,6 +36,7 @@
     width: 100%;
   }
 }
+
 @media only screen and (max-width: 963px) {
   .about-heading {
     font-size: 180%;
@@ -44,6 +46,7 @@
     transform: scale(1.2);
   }
 }
+
 @media only screen and (max-width: 780px) {
   .about-heading {
     font-size: 150%;
