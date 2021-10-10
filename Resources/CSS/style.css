@@ -50,6 +50,7 @@ header h2 {
   color: white;
   font-weight: 400;
 }
+
 .btn {
   text-decoration: none;
   background-color: #b8a70d;
@@ -235,6 +236,8 @@ header h2 {
 .ww-box {
   padding: 3% 12%;
 }
+/* Testimonial */
+
 .testimonial {
   background-image: -webkit-linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -294,7 +297,7 @@ cite img {
   margin-right: 10px;
 }
 
-/* Card */
+/* Cards */
 
 .plans {
   margin: 100px 0;
@@ -388,7 +391,9 @@ cite img {
 .button:focus {
   outline: none;
 }
+
 /* Contact */
+
 .contact {
   text-align: center;
   padding-bottom: 90px;
@@ -427,6 +432,7 @@ textarea {
 }
 
 /* Footer */
+
 footer {
   background-color: #111;
   color: #fff;
@@ -434,6 +440,7 @@ footer {
   width: 100%;
   padding-top: 50px;
 }
+
 .footer-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,12 +465,14 @@ footer {
   line-height: 3rem;
   letter-spacing: 1px;
 }
+
 .footer-content p {
   max-width: 400px;
   margin: 8px auto;
   line-height: 28px;
   font-size: 14px;
 }
+
 .social {
   list-style: none;
   display: -webkit-box;
@@ -481,12 +490,15 @@ footer {
 .social li {
   margin: 0 12px;
 }
+
 .social a {
   color: #fff;
 }
+
 .social i {
   font-size: 18px;
 }
+
 .footer-bottom {
   background-color: #000;
   width: 100%;
@@ -498,6 +510,7 @@ footer {
   font-size: 14px;
   word-spacing: 2px;
 }
+
 .footer-bottom span {
   opacity: 0.4;
   font-weight: 500;
@@ -519,6 +532,7 @@ footer {
 .fa-instagram:hover {
   color: #517fa4;
 }
+
 *:focus {
   outline: none;
 }
