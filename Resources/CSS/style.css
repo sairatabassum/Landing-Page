@@ -93,6 +93,7 @@ header h2 {
   width: 100%;
   box-shadow: 0 2px 2px #efefef;
   height: 60px;
+  z-index: 1;
 }
 .sticky-nav .main-nav {
   margin-top: 20px;
